@@ -1,0 +1,21 @@
+{
+  "name": "stocks-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --nonStandard true --loose all --modules ignore -o dist/app.js"
+  },
+  "author": "luca mezzalira <mezzalab@gmail.com> (http://lucamezzalira.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1"
+  },
+  "dependencies": {
+    "js-csp": "^0.5.0",
+    "transducers.js": "^0.3.2"
+  }
+}
